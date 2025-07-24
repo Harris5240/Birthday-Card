@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Queen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="outside">
+        <div class="front">
+          <p>Happy Birthday Queen</p>
+          <div class="cake">
+            <div class="top-layer"></div>
+            <div class="middle-layer"></div>
+            <div class="bottom-layer"></div>
+            <div class="candle"></div>
+          </div>
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="inside">
+        <img src="/images/birthday.jpg" class="birthday-img" alt="Birthday Image">
+        <p class="text">HI QUEEN ERA, HAPPY BIRTHDAY. I may have not known you for a long time but I am greatful to have known you. I could even say that it feels like it doesn't matter how long or how short I've known you but I know how much of an amazing person you are. Now that you've reached this stage in your life, I wish for you to keep your best qualities, heal from the hurt of the past, and for the best opportunies in life to head your way.</p>
+      </div>
+    </div>
+
+    <script>
+      const card = document.querySelector('.card');
+      card.addEventListener('click', () => {
+        card.classList.toggle('open');
+      }); 
+    </script>
+  </body>
+</html>
